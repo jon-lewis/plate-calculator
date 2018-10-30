@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Plates</title>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <script src="snap.svg-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.13.0/riot+compiler.min.js"></script>
+
+  <script type="riot/tag" src="barbell.tag"></script>
+  
+</head>
+<body>
+
+    <barbell></barbell>
+
+
+
+    <script>
+    
+    $(document).ready(function() {
+        riot.mount('*');
+    });
+
+    </script>
+</body>
+</html>
